@@ -1,6 +1,11 @@
 
+REST API w/ Auth
+--------------
+source: https://blog.miguelgrinberg.com/post/restful-authentication-with-flask
+
 Simple API
 ----------
+Source: https://blog.miguelgrinberg.com/post/designing-a-restful-api-with-python-and-flask
 ```python
 '''
 Troubleshooting:
