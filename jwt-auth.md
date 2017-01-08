@@ -30,7 +30,8 @@ Content-Type: application/json
 ```
 You should save the access token above and use it for your subsequent requests to the backend.
 So when we send a request to the backend (GET, POST, PATCH, DELETE, etc),
-we have to send a request with a header `Auth: JWT thetokenstring`
+we have to send a request 
+with a header: `Auth: JWT thetokenstring`
 ```
 GET /myprotectedurl HTTP/1.1
 Authorization: JWT thetokenstring
