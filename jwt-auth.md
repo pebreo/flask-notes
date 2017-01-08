@@ -16,7 +16,7 @@ Content-Type: application/json
 
 {
     "username": "joe",
-    "password": "pass"
+    "password": "mypassword"
 }
 ```
 and then it will respond with
@@ -28,7 +28,8 @@ Content-Type: application/json
     "access_token": "thetokenstring"
 }
 ```
-And everytime we want to do any type of request (GET, POST, PATCH, DELETE, etc),
+You should save the access token above and use it for your subsequent requests to the backend.
+So when we send a request to the backend (GET, POST, PATCH, DELETE, etc),
 we have to send a request with a header `Auth: JWT thetokenstring`
 ```
 GET /myprotectedurl HTTP/1.1
